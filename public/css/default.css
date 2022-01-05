@@ -189,7 +189,6 @@ blockquote:before {
    line-height: 0px;
    margin: 0;
    font-family: arial, sans-serif;
-
    position: absolute;
    top:  30px;
 	left: 0;
@@ -210,16 +209,6 @@ blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a,
 blockquote cite a:visited { color: #8B9798; border: none }
 
-/* ---------------------------------------------------------------------
-/*  Pull Quotes Markup
-/*
-    <aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	 </aside>
-/*
-/* --------------------------------------------------------------------- */
 .pull-quote {
    position: relative;
 	padding: 18px 30px 18px 0px;
@@ -739,6 +728,15 @@ properly.
 
    .row { 
       width: auto;
+   }
+
+}
+
+@media only screen and (max-width: 570px) {
+
+   .row { 
+	   margin: 0 auto;
+      padding: 2rem;
    }
 
 }

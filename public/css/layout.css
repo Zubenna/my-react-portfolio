@@ -196,7 +196,6 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    width: 100%;
    background: #191765;
-   /* background: #161415 url(../images/background-two.jpg) no-repeat; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
 }
