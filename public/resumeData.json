@@ -1,0 +1,118 @@
+{
+  "main": {
+    "name": "Nnamdi Emelu",
+    "occupation": "Full-Stack Web Developer",
+    "description": "",
+    "image": "profilepic.jpg",
+    "bio": "Hi, I'm Nnamdi. Nice to meet you! I'm a full-stack web developer looking for a new opportunity. I've found in programming a way to fulfill my desire of seeking creative solutions to different kinds of problems. I'm currently a full-stack web developer instructor at Loctech IT training Institute. I develop projects using HTML, CSS, Ruby, SQL, Node.JS, MongoDB, Ruby On Rails, React & Redux, and Javascript. I have a bachelor's degree in Electrical/Electronic Engineering and spent the first eight years of my career providing IT technical support for different companies in Nigeria, solving problems in windows servers, computer hardware, software, and general IT Technical Support. However, I have an interest in software development and have been coding for the past three years. My interest in programming and software development made me join microverse - a remote software development school where I developed my skill to become a full-stack web developer. I'm passionate about learning different things and collaborating with teammates, and I'm currently looking for new opportunities! So, if you'd like to know a little more about me feel free to contact me directly at emelunna@gmail.com or send me a connection request, I'll be glad to talk to you!",
+    "contactmessage": "Get in touch with me!",
+    "email": "emelunna@gmail.com",
+    "website": "",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=1t75J6GQ8tBUty-sFshOmJI9M0USC2g_P",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/zubenna",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/nnamdi-emelu/",
+        "className": "fa fa-linkedin"
+      },
+       {
+        "name": "angelist",
+        "url": "https://angel.co/u/emelu-nnamdi-azubuike",
+        "className": "fa fa-angellist"
+      },
+      {
+        "name": "gitlab",
+        "url": "https://gitlab.com/Zubenna",
+        "className": "fa fa-gitlab"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/zubenna",
+        "className": "fab fa-twitter"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Technical Skills Proficiency",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "85%"
+      },
+      {
+        "name": "Ruby",
+        "level": "80%"
+      },
+      {
+        "name": "NodeJs",
+        "level": "85%"
+      },
+      {
+        "name": "Ruby on Rails",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "85%"
+      },
+      
+      {
+        "name": "Web Development",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Online Banking System",
+        "image": "user-dashboard.JPG",
+        "live": "https://sheltered-chamber-46324.herokuapp.com/api/bank",
+        "github": "https://github.com/Zubenna/online-banking.git",
+        "intro": "This project is the implementation of an online/internet banking system. It consists of a backend API endpoint as well as a simple but user-friendly frontend. The API endpoints are built with Node.JS and connected to a cloud-based MongoDB database. The front end is built with an EJS template engine and Bootstrap. New user can create an account. Existing user can register. Logged in users can make deposit, withdraw, check balance, transfer, and check transaction history.",
+        "tech" : "NodeJs, Express, mongoose, MongoDB, EJS Templating engine, Bootstrap 5, Heroku, Multer, tested with Jest and Supertest"
+      },
+      {
+        "title": "Book Appointment App",
+        "image": "Home-page.png",
+        "live": "https://book-a-doctor.netlify.app/",
+        "github": "https://github.com/Zubenna/doctor-appointment-app",
+        "intro": "This is an app for booking appointments with a doctor. This front-end is built with react and redux. It connects to a backend API I built with Rails and is hosted on Heroku. Existing users can log in while new users have to register before login. After login, the user will see a list of doctors to book an appointment with. The user will see selected doctor detail and a list of his previous bookings.",
+        "tech" : "Ruby on Rails, React & Redux, CSS3 Modules, JavaScript-ES6, Heroku, & Netlify"
+      },
+      {
+        "title": "Zonga E-commerce Shop",
+        "image": "Home-page-ecom.png",
+        "live": "https://zongashop.codes/",
+        "github": "https://github.com/Zubenna/zonga-ecommerce-store",
+        "intro": "This is a fully functional online shop. Users can log in with either their Google or Facebook accounts. Logged in users will be able to add items to the basket. After shopping, the user can proceed to checkout. Payment is processed using Stripe - an online payment processing company. Users will be notified after their others have been processed. They can view the order list before logging out.",
+        "tech" : "Next.js, React & Redux,Tailwind CSS, Webhook, Firebase"
+      },
+      {
+        "title": "Group Our Transportation Mobile App",
+        "image": "Group-our-transport.png",
+        "live": "https://fast-dawn-66004.herokuapp.com/",
+        "github": "https://github.com/Zubenna/group_our_transportation.git",
+        "intro": "This mobile application helps a user or organization to group and log all the distances covered in Kilometer(KM) within a particular period for various means of transportation",
+        "tech" : "Ruby on Rails, CSS3, Bootstrap4, Capybara, rspec, Heroku"
+      },
+      {
+        "title": "Weather Information App",
+        "image": "weather-info-app.png",
+        "live": "http://emelunnamdi.me/weather-info-app/",
+        "github": "https://github.com/Zubenna/weather-info-app.git",
+        "intro": "This app gives current weather information such as temperature, humidity, etc connecting and pulling information from the OpenWeatherMap API.",
+        "tech" : "JavaScript, Webpack, HTML5, CSS3"
+      }
+    ]
+  }
+}
